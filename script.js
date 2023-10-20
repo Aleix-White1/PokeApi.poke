@@ -173,7 +173,7 @@ async function searchBar() {
         }
 
         try {
-            const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=1118`);
+            const response = await fetch(`https://pokeapi.co/api/v2/pokemon`);
             const data = await response.json();
 
             const resultado = data.results.filter(pokemon => pokemon.name.includes(input));
