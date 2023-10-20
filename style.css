@@ -344,7 +344,8 @@ p{
 }
 .paginacion{
     display: none;
-    justify-content:space-around;
+    justify-content: space-around;
+    flex-direction: row-reverse;
     padding: 1%;
 }
 #previous, #next{
