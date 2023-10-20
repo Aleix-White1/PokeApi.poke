@@ -448,7 +448,7 @@ p{
 
     .items {
         display: grid;
-        grid-template: 0.5fr / auto auto;
+        grid-template: 1fr / auto ;
         width: 100%;
         height: fit-content;
     }
