@@ -1,0 +1,492 @@
+@font-face {
+    font-family: Pokemon-Hollow;
+    src: url("fonts/Pokemon\ Hollow.ttf");
+}
+
+@font-face {
+    font-family: Pokemon-Solid;
+    src: url("fonts/Pokemon\ Solid.ttf");
+}
+
+@font-face {
+    font-family: Happy;
+    src: url("fonts/Happy-Dance.ttf");
+}
+
+body {
+    background-color: lightcyan;
+}
+
+/*------------HEADER----------------*/
+.header {
+    display: flex;
+    border-radius: 30px 30px 30px 30px;
+    height: fit-content;
+    padding-bottom: 2%;
+    background-color: aquamarine;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+.left {
+    margin-top: 0px;
+    display: flex;
+    margin: 2%;
+    flex-direction: column;
+    justify-content: space-around;
+    width: fit-content;
+}
+
+.logo {
+    width: 100%;;
+    
+}
+
+#Logo-de-PokeApi {
+    width: 80%;
+}
+
+.tipos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.tipos>h1 {
+    font-family: Happy;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+.buscador {
+    height: fit-content;
+    margin: 2%;
+}
+
+#buscador {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 300px;
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+}
+
+.items {
+    display: grid;
+    grid-template: 1fr / auto auto auto auto auto;
+    width: 100%;
+    height: fit-content;
+}
+
+.items>li {
+    list-style: none;
+    margin: 1%;
+}
+
+li>button {
+    width: 70%;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-family: Pokemon-Solid;
+    text-align: center;
+}
+
+.btn-todos {
+    color: white;
+    background-color: black;
+}
+
+.btn-todos:hover {
+    color: black;
+    background-color: white;
+}
+
+.steel {
+    color: white;
+    background-color: lightslategray;
+}
+
+.steel:hover {
+    color: lightslategray;
+    background-color: white;
+}
+
+.water {
+    color: white;
+    background-color: blue;
+}
+
+.water:hover {
+    color: blue;
+    background-color: white;
+}
+
+.bug {
+    color: black;
+    background-color: lightgreen;
+}
+
+.bug:hover {
+    color: lightgreen;
+    background-color: white;
+}
+
+.dragon {
+    color: black;
+    background-color: lightskyblue;
+}
+
+.dragon:hover {
+    color: lightskyblue;
+    background-color: white;
+}
+
+.electric {
+    color: black;
+    background-color: yellow;
+}
+
+.electric:hover {
+    color: black;
+    background-color: white;
+}
+
+.ghost {
+    color: white;
+    background-color: purple;
+}
+
+.ghost:hover {
+    color: purple;
+    background-color: white;
+}
+
+.fire {
+    color: white;
+    background-color: red;
+}
+
+.fire:hover {
+    color: red;
+    background-color: white;
+}
+
+.fairy {
+    color: black;
+    background-color: lightpink;
+}
+
+.fairy:hover {
+    color: lightpink;
+    background-color: white;
+}
+
+.ice {
+    color: black;
+    background-color: turquoise;
+}
+
+.ice:hover {
+    color: turquoise;
+    background-color: white;
+}
+
+.fighting {
+    color: white;
+    background-color: orange;
+}
+
+.fighting:hover {
+    color: orange;
+    background-color: white;
+}
+
+.normal {
+    color: white;
+    background-color: gray;
+}
+
+.normal:hover {
+    color: gray;
+    background-color: white;
+}
+
+.grass {
+    color: white;
+    background-color: green;
+}
+
+.grass:hover {
+    color: green;
+    background-color: white;
+}
+
+.psychic {
+    color: white;
+    background-color: palevioletred;
+}
+
+.psychic:hover {
+    color: palevioletred;
+    background-color: white;
+}
+
+.rock {
+    color: white;
+    background-color: brown;
+}
+
+.rock:hover {
+    color: brown;
+    background-color: white;
+}
+
+.btn-siniestro {
+    color: white;
+    background-color: darkslategrey;
+}
+
+.btn-siniestro:hover {
+    color: darkslategrey;
+    background-color: white;
+}
+
+.ground {
+    color: white;
+    background-color: darkred;
+}
+
+.ground:hover {
+    color: darkred;
+    background-color: white;
+}
+
+.poison{
+    color: white;
+    background-color: darkmagenta;
+}
+
+.poison:hover {
+    color: darkmagenta;
+    background-color: white;
+}
+
+.flying {
+    color: black;
+    background-color: aqua;
+}
+
+.flying:hover {
+    color: aqua;
+    background-color: white;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr / auto auto auto;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: fit-content;
+    background-color: aquamarine;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+.items_item {
+    border: 1px solid black;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin: 10%;
+    text-align: center;
+    background-color: orange;
+}
+.screen{
+    text-align: center;
+    visibility: hidden;
+}
+.container{
+    visibility: hidden;
+}
+.itemTitle{
+    font-size:30px; 
+    font-family: Pokemon-Solid; 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.itemP{
+    border-radius: 20px 20px 20px 20px;
+    font-family: Pokemon-Solid;
+    text-align: center;
+}
+p{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 2%;
+    border-radius: 20px 20px 20px 20px;
+    font-family: Pokemon-Solid;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.items_item > .tipos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+.paginacion{
+    display: none;
+    justify-content:space-around;
+    padding: 1%;
+}
+#previous, #next{
+    padding: 1%;
+    background-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    border: 1px solid gray;
+    color: gray;
+
+}
+.items_item > button {
+    margin-bottom: 2%;
+    font-family: Pokemon-Solid;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    border: none;
+    background-color: orange;
+}
+
+#text{
+    font-family: Pokemon-Solid;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.alertHTML{
+    font-family: Pokemon-Solid;
+    font-size: 10px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.alertTITLE{
+    font-family: Pokemon-Solid;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+}
+.alertContainer{
+    background-color: lightpink;
+}
+
+
+
+
+
+
+
+
+
+
+@media (width >=768px) and (width <=1024px) {
+    .header {
+        height: 30vh;
+    }
+
+    .tipos>h1 {
+        font-family: Happy;
+        letter-spacing: 5px;
+        font-size: 30px;
+    }
+
+    .items {
+        display: grid;
+        grid-template: 0.5fr / auto auto auto auto auto;
+        width: 100%;
+        height: fit-content;
+    }
+
+    li>button {
+        width: 70%;
+        border: none;
+        letter-spacing: 2px;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+        font-family: Pokemon-Solid;
+        font-size: 10%;
+        text-align: center;
+    }
+
+    .container {
+        grid-template: 1fr / auto auto;
+    }
+}
+
+/*TABLET */
+@media (width < 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .tipos>h1 {
+        font-family: Happy;
+        letter-spacing: 5px;
+        font-size: 10px;
+    }
+
+    .items {
+        display: grid;
+        grid-template: 0.5fr / auto auto;
+        width: 100%;
+        height: fit-content;
+    }
+
+    li>button {
+        width: 50%;
+        border: none;
+        letter-spacing: 2px;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+        font-family: Pokemon-Solid;
+        font-size: 10%;
+        text-align: center;
+    }
+
+    #Logo-de-PokeApi {
+        width: 50%;
+        text-align: center;
+    }
+
+    #buscador {
+        width: 70%;
+    }
+
+    .left {
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .container {
+        grid-template: 1fr / auto;
+    }
+    .itemTitle{
+        font-size: 25px;
+    }
+    .items_item > .tipos{
+        font-size: 10px;
+    }
+}

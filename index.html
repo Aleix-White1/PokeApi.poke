@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image" href="/img/Pokedex_tool_icon-icons.com_67529.png">
+    <title>PokeApi</title>
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class="left">
+            <div class="logo">
+                <a href="index.html"><img id="Logo-de-PokeApi" src="img/Logo-de-PokeApi.png" alt="" /></a>
+            </div>
+            <div class="buscador">
+                <input type="search" placeholder="Buscar Pokemon" id="buscador" />
+            </div>
+        </div>
+
+        <div class="tipos">
+            <h1>Tipos de Pokémon</h1>
+            <div class="items">
+                <li class="nav-button"><button class="btn-todos">ALL</button></li>
+                <li class="nav-button"><button class="steel">STEEL</button></li>
+                <li class="nav-button"><button class="water">WATER</button></li>
+                <li class="nav-button"><button class="bug">BUG</button></li>
+                <li class="nav-button"><button class="dragon">DRAGON</button></li>
+                <li class="nav-button"><button class="electric">ELECTRIC</button></li>
+                <li class="nav-button"><button class="ghost">GHOST</button></li>
+                <li class="nav-button"><button class="fire">FIRE</button></li>
+                <li class="nav-button"><button class="fairy">FAIRY</button></li>
+                <li class="nav-button"><button class="ice">ICE</button></li>
+                <li class="nav-button"><button class="fighting">FIGHTING</button></li>
+                <li class="nav-button"><button class="normal">NORMAL</button></li>
+                <li class="nav-button"><button class="grass">GRASS</button></li>
+                <li class="nav-button"><button class="psychic">PSYCHIC</button></li>
+                <li class="nav-button"><button class="rock">ROCK</button></li>
+                <li class="nav-button"><button class="btn-siniestro">SINISTER</button></li>
+                <li class="nav-button"><button class="ground">GROUND</button></li>
+                <li class="nav-button"><button class="poison">POISON</button></li>
+                <li class="nav-button"><button class="flying">FLYING</button></li>
+            </div>
+        </div>
+    </div>
+    <!-- LOADER CONTENIDO -->
+    <div class="screen">
+        <img src="img/giphy.gif" alt="" style="width: 10%;">
+    </div>
+    <!-- DONDE SE AÑADEN LOS POKEMONS -->
+    <div class="container">
+        
+    </div>
+    <div class="paginacion">
+        <button type="button" id="previous">  <  </button>
+        <button type="button" id="next">  >  </button>
+    </div>
+    
+    <script src="code.jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
