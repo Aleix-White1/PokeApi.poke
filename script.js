@@ -176,7 +176,7 @@ async function searchBar() {
             const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=1118`);
             const data = await response.json();
 
-            const resultado = data.results.filter(pokemon => pokemon.name.startsWith(input));
+            const resultado = data.results.filter(pokemon => pokemon.name.includes(input));
             if (resultado.length > 0) {
                 contenedor.style.visibility = "visible";
 
