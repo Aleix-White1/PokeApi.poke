@@ -5,13 +5,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <!--<link rel="icon" type="image/" href="/img/Pokedex_tool_icon-icons.com_67529.png">-->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!--<link rel="icon" type="image/" href="/img/Pokedex_tool_icon-icons.com_67529.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/b1571cef7ef942bb0aab5986238e78bc.ico/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="img/b1571cef7ef942bb0aab5986238e78bc.ico/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/b1571cef7ef942bb0aab5986238e78bc.ico/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="img/b1571cef7ef942bb0aab5986238e78bc.ico/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="img/b1571cef7ef942bb0aab5986238e78bc.ico/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="img/b1571cef7ef942bb0aab5986238e78bc.ico/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="img/b1571cef7ef942bb0aab5986238e78bc.ico/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152"
+        href="img/b1571cef7ef942bb0aab5986238e78bc.ico/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="img/b1571cef7ef942bb0aab5986238e78bc.ico/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192"
+        href="img/b1571cef7ef942bb0aab5986238e78bc.ico/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/b1571cef7ef942bb0aab5986238e78bc.ico/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="img/b1571cef7ef942bb0aab5986238e78bc.ico/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/b1571cef7ef942bb0aab5986238e78bc.ico/favicon-16x16.png" />
+    <link rel="manifest" href="img/b1571cef7ef942bb0aab5986238e78bc.ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="img/b1571cef7ef942bb0aab5986238e78bc.ico/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
     <title>PokeApi</title>
 </head>
 
 <body>
-    
     <div class="header">
         <div class="left">
             <div class="logo">
@@ -40,7 +62,9 @@
                 <li class="nav-button"><button class="grass">GRASS</button></li>
                 <li class="nav-button"><button class="psychic">PSYCHIC</button></li>
                 <li class="nav-button"><button class="rock">ROCK</button></li>
-                <li class="nav-button"><button class="btn-siniestro">SINISTER</button></li>
+                <li class="nav-button">
+                    <button class="btn-siniestro">SINISTER</button>
+                </li>
                 <li class="nav-button"><button class="ground">GROUND</button></li>
                 <li class="nav-button"><button class="poison">POISON</button></li>
                 <li class="nav-button"><button class="flying">FLYING</button></li>
@@ -49,17 +73,16 @@
     </div>
     <!-- LOADER CONTENIDO -->
     <div class="screen">
-        <img src="img/giphy.gif" alt="" style="width: 10%;">
+        <img src="img/giphy.gif" alt="" style="width: 10%" />
     </div>
     <!-- DONDE SE AÑADEN LOS POKEMONS -->
-    <div class="container">
-        
-    </div>
+    <div class="container"></div>
     <div class="paginacion">
-        <button type="button" id="previous">  <  </button>
-        <button type="button" id="next">  >  </button>
+        <button type="button" id="previous">
+            << /button>
+                <button type="button" id="next">></button>
     </div>
-    
+
     <script src="code.jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="script.js"></script>
