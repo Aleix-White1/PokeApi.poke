@@ -4,6 +4,8 @@ $(document).ready(function () {
     $("button").click(function () {
         var btnClass = $(this).attr('class');
         if (btnClass == "btn-todos") {
+            paginacion = 20;
+            paginaActual = 1;
             showLoader();
             funcTodos(paginacion, paginaActual);
             // BOTONES PAGINACION
